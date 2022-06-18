@@ -6,3 +6,8 @@
     cursor: pointer;
     border: none;
 }
+
+.btn:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+}
